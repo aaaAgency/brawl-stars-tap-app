@@ -4,7 +4,7 @@ import Balance from "../components/ui/Balance";
 import Button from "../components/ui/Button";
 import Progress from "../components/ui/Progress";
 
-import Bg from "/main-bg.png";
+import Bg from "/static/img/main-bg.png";
 import Navigation from "../components/Navigation";
 // import TapImg from "/tap-img.png";
 
@@ -36,7 +36,7 @@ const HomePage = () => {
         onClick={() => setProgressValue((prev) => prev - 1)}
         className="mt-[80px] max-w-[250px] w-full transition-transform active:scale-95 outline-none"
       >
-        <div className="w-full h-[290px] bg-no-repeat bg-center bg-contain bg-[url(/tap-img.png)]" />
+        <div className="w-full h-[290px] bg-no-repeat bg-center bg-contain bg-[url(/static/img/tap-img.png)]" />
         {/* <img src={TapImg} alt="" className="w-full h-auto" /> */}
       </button>
       <div className="w-full flex flex-col mt-[50px]">

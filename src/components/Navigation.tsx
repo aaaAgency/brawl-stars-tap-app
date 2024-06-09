@@ -1,8 +1,9 @@
-import FriendsImg from "/nav-icons/friends.svg";
-import RatingImg from "/nav-icons/rating.svg";
-import TasksImg from "/nav-icons/tasks.svg";
-import MarketImg from "/nav-icons/market.svg";
 import { NavLink } from "react-router-dom";
+
+import FriendsImg from "/static/svg/nav-icons/friends.svg";
+import RatingImg from "/static/svg/nav-icons/rating.svg";
+import TasksImg from "/static/svg/nav-icons/tasks.svg";
+import MarketImg from "/static/svg/nav-icons/market.svg";
 
 const MyBr = () => {
   return <div className="min-w-px h-[60px] bg-[#FFEACBB2]" />;
@@ -46,7 +47,7 @@ const Navigation = ({ className }: { className?: string }) => {
     >
       {links.map(({ name, img, path }, index) => (
         <>
-          <NavLink key={name} to={path} className="flex flex-col items-center">
+          <NavLink key={index} to={path} className="flex flex-col items-center">
             <img className="w-[30px] h-[30px]" src={img} alt={name} />
             <span className="text-[12px] font-medium leading-[14px]">
               {name}

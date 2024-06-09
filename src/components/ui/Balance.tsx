@@ -1,6 +1,6 @@
 import React from "react";
-import BalanceImg from "/balance-img.png";
-import BalanceBg from "/balance-bg.svg";
+import BalanceImg from "/static/img/balance-img.png";
+import BalanceBg from "/static/svg/balance-bg.svg";
 
 type BalanceType = {
   balance: number;
