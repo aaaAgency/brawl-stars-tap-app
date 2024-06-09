@@ -13,8 +13,7 @@ const links = [
   {
     name: "Друзья",
     img: FriendsImg,
-    // path: "/friends",
-    path: "/",
+    path: "/friends",
   },
   {
     name: "Рейтинг",
