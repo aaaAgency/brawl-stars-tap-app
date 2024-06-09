@@ -7,7 +7,7 @@ const FriendsPage = () => {
     return (
         <section className="base-page-style">
             <img
-                className="fixed -z-10 h-full w-[475px] object-center object-cover"
+                className="fixed -z-10 h-full w-[390px] object-center object-cover"
                 src={"/static/img/backgrounds/friend-bg.png"}
                 alt="bg"
             />
