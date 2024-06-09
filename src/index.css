@@ -2,3 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.base-page-style {
+    @apply pb-[38px] max-w-[390px] w-full h-fit flex flex-col justify-between text-white;
+}
+
+.block-gradient {
+    background: linear-gradient(0deg, rgba(51, 59, 78, 0.95), rgba(51, 59, 78, 0.95)), #FA6503;
+}
+
+.orange-gradient {
+    background: linear-gradient(293.23deg, #F98905 -19.5%, #FC4802 27.83%, #FE8A01 59.76%, #E1A720 79.58%, #FCB100 97.06%), linear-gradient(0deg, rgba(85, 72, 53, 0.95), rgba(85, 72, 53, 0.95)), #FA6503;
+    box-shadow: 0px 2px 2.5px #A06034, inset 0px 5px 2.2px #FFCC55, inset 0px 0px 10px #F2960E;
+    border: 1px solid #FE8802;
+}
+
+.bebebe {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

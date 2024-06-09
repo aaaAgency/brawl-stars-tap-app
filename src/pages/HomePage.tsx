@@ -4,7 +4,7 @@ import Balance from "../components/ui/Balance";
 import Button from "../components/ui/Button";
 import Progress from "../components/ui/Progress";
 
-import Bg from "/static/img/main-bg.png";
+import Bg from "/static/img/backgrounds/main-bg.png";
 import Navigation from "../components/Navigation";
 // import TapImg from "/tap-img.png";
 
@@ -24,13 +24,13 @@ const HomePage = () => {
   }, [progressValue]);
 
   return (
-    <main className="pb-[38px] max-w-[390px] w-full h-fit px-5 relative flex flex-col items-center justify-between text-white">
+    <main className="base-page-style relative px-5 items-center">
       <img
         className="absolute -z-10 h-full w-full object-center object-cover"
         src={Bg}
-        alt=""
+        alt="bg"
       />
-      <Button className={"mt-[15px]"}>Поиск сообщества</Button>
+      <Button className={"mt-[15px] text-lg"}>Поиск сообщества</Button>
       <Balance balance={6.534} className="mt-[24px]" />
       <button
         onClick={() => setProgressValue((prev) => prev - 1)}

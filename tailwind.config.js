@@ -12,8 +12,10 @@ export default {
     },
     colors: {
       "white": "#FFFFFF",
+      "black": "#000E2E",
+      "green": "#CAFC25",
+      "light-grey": "rgba(255, 255, 255, 0.7)",
     }
   },
   plugins: [],
 }
-
